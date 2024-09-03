@@ -660,22 +660,22 @@ li > .menu__container > .grid__controling .control_center--grid {
 }
 
 .dock .icon img {
-  width: 3.6rem;
-  transition: 0.2s;
-  transform: translateY(-2.5px);
+  width: 3.2rem;
+  transition: 0.12s;
+  transform: translateY(-2.7px);
 }
 
 .dock .icon:hover img {
   margin: 0 0 40px 0;
-  width: 7.1rem;
+  width: 7.0rem;
 }
 .dock .icon:hover + .icon img {
-  width: 5.6rem;
+  width: 5rem;
   margin: 0 0 25px 0;
 }
 
 .dock .icon img:active {
-  filter: brightness(0.6) drop-shadow(0 0 10px #2c2c2c);
+  filter: brightness(0.3) drop-shadow(0 0 10px #2c2c2c);
 }
 
 .container__Window {
@@ -803,9 +803,9 @@ li > .menu__container > .grid__controling .control_center--grid {
   height: 91%;
   overflow-y: scroll;
   padding-left: 1rem;
-  background-color: rgba(5, 5, 99, 0.63);
+  background-color: rgba(10, 10, 10, 0.75);
   backdrop-filter: blur(12px);
-  color: rgb(235, 235, 235);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: "Roboto Mono", monospace;
 }
@@ -973,7 +973,7 @@ li > .menu__container > .grid__controling .control_center--grid {
 
 .searchbox {
   width: 100%;
-  height: 100px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1085,7 +1085,7 @@ li > .menu__container > .grid__controling .control_center--grid {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.25);
   }
   100% {
     transform: scale(1);
@@ -1097,13 +1097,13 @@ li > .menu__container > .grid__controling .control_center--grid {
     transform: translate(0);
   }
   25% {
-    transform: translateY(-12px);
+    transform: translateY(-13px);
   }
   50% {
     transform: translateY(-3px);
   }
   75% {
-    transform: translateY(-21px);
+    transform: translateY(-22px);
   }
   100% {
     transform: translateY(0px);
@@ -1112,10 +1112,10 @@ li > .menu__container > .grid__controling .control_center--grid {
 
 @keyframes vibrate {
   0% {
-    transform: rotate(9deg);
+    transform: rotate(7deg);
   }
   100% {
-    transform: rotate(-9deg);
+    transform: rotate(-7deg);
   }
 }
 
@@ -1242,7 +1242,7 @@ li > .menu__container > .grid__controling .control_center--grid {
 
 .input {
   width: 100%;
-  height: 70%;
+  height: 80%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 20% 20% 20% 20% 20%;
