@@ -533,7 +533,7 @@ li > .menu__container > .grid__controling .control_center--grid {
   backdrop-filter: blur(20px);
   border: 1px solid var(--color-white-200);
   border-radius: 14px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
   z-index: 10;
 }
 
@@ -749,11 +749,11 @@ li > .menu__container > .grid__controling .control_center--grid {
 }
 
 .window__taskbar--actions button:nth-child(1):hover {
-  background-color: #fc3c32;
+  background-color: #aa0000;
 }
 
 .window__taskbar--actions button:nth-child(2) {
-  background-color: #ffbd2e;
+  background-color: #09ab00;
   box-shadow: 0 0 0 0.5px #dea123;
 }
 
@@ -762,11 +762,11 @@ li > .menu__container > .grid__controling .control_center--grid {
 }
 
 .window__taskbar--actions button:nth-child(2):hover {
-  background-color: #ffa600;
+  background-color: #96a400;
 }
 
 .window__taskbar--actions button:nth-child(3) {
-  background-color: #27c93f;
+  background-color: #96a400;
   box-shadow: 0 0 0 0.5px #1aab29;
 }
 
@@ -775,7 +775,7 @@ li > .menu__container > .grid__controling .control_center--grid {
 }
 
 .window__taskbar--actions button:nth-child(3):hover {
-  background-color: #12aa29;
+  background-color: #96a400;
 }
 
 .window__taskbar--content {
